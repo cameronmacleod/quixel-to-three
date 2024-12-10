@@ -22,7 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "fs-extra": "11.1.0",
-    "jimp": "0.16.2"
+    "jimp": "0.16.2",
+    "quixel-to-three": "^1.0.4"
   },
   "bin": {
     "quixel-to-three": "./cli.js"
