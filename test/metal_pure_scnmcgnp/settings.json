@@ -1,0 +1,49 @@
+{
+  "closed": false,
+  "remembered": {
+    "undefined": {
+      "0": {
+        "material": {
+          "metalness": 0.8,
+          "roughness": 0.7,
+          "envMapIntensity": 0.5,
+          "aoMapIntensity": 1.0,
+          "displacementScale": 1.0,
+          "color": {"r": 1, "g": 1, "b": 1}
+        },
+        "textures": {
+          "repeatX": 1,
+          "repeatY": 1
+        },
+        "lights": {
+          "ambient": {
+            "intensity": 0.5,
+            "visible": true
+          },
+          "point1": {
+            "intensity": 1.5,
+            "distance": 100,
+            "position": {"x": 2.5, "y": 2.5, "z": 5},
+            "visible": true
+          },
+          "point2": {
+            "intensity": 1.0,
+            "distance": 100,
+            "position": {"x": -2.5, "y": -2.5, "z": 0},
+            "visible": true
+          },
+          "back": {
+            "intensity": 3.0,
+            "distance": 100,
+            "position": {"x": 0, "y": 0, "z": -7},
+            "visible": true
+          }
+        },
+        "animation": {
+          "rotationSpeed": 0.002
+        }
+      }
+    }
+  }
+}
+
